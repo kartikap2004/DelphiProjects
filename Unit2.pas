@@ -4,10 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, Vcl.StdCtrls;
 
 type
   TForm2 = class(TForm)
+    OrganizationLevel: TComboBox;
   private
     { Private declarations }
   public
