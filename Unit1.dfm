@@ -16,6 +16,13 @@ object Form1: TForm1
   Visible = True
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 240
+    Width = 217
+    Height = 13
+    Caption = 'Customer Data'
+  end
   object dxRibbon1: TdxRibbon
     Left = 0
     Top = 0

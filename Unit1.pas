@@ -20,6 +20,7 @@ type
     dxBarLargeButton1: TdxBarLargeButton;
     dxBarManager1Bar2: TdxBar;
     CheckBox1: TCheckBox;
+    Label1: TLabel;
     procedure dxBarLargeButton1Click(Sender: TObject);
     procedure dxRibbon1HelpButtonClick(Sender: TdxCustomRibbon);
     procedure CheckBox1Click(Sender: TObject);
