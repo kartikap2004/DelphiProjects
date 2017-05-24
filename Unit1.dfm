@@ -39,6 +39,15 @@ object Form1: TForm1
       Index = 0
     end
   end
+  object CheckBox1: TCheckBox
+    Left = 24
+    Top = 200
+    Width = 201
+    Height = 17
+    Caption = 'CheckBox1'
+    TabOrder = 5
+    OnClick = CheckBox1Click
+  end
   object dxBarManager1: TdxBarManager
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText

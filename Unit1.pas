@@ -9,7 +9,7 @@ uses
   cxPCdxBarPopupMenu, dxTabbedMDI, dxRibbonForm, dxSkinsCore, dxSkinCaramel, dxSkinMoneyTwins, dxSkinOffice2007Black,
   dxSkinOffice2007Blue, dxSkinOffice2007Green, dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
   dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray, dxSkinOffice2013LightGray,
-  dxSkinOffice2013White, dxSkinsdxRibbonPainter, dxRibbonCustomizationForm, dxSkinsdxBarPainter;
+  dxSkinOffice2013White, dxSkinsdxRibbonPainter, dxRibbonCustomizationForm, dxSkinsdxBarPainter, Vcl.StdCtrls;
 
 type
   TForm1 = class(TdxRibbonForm)
@@ -19,8 +19,10 @@ type
     dxBarManager1Bar1: TdxBar;
     dxBarLargeButton1: TdxBarLargeButton;
     dxBarManager1Bar2: TdxBar;
+    CheckBox1: TCheckBox;
     procedure dxBarLargeButton1Click(Sender: TObject);
     procedure dxRibbon1HelpButtonClick(Sender: TdxCustomRibbon);
+    procedure CheckBox1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,6 +35,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.CheckBox1Click(Sender: TObject);
+begin
+  ShowMessage('CheckBox 1 Click!');
+end;
 
 procedure TForm1.dxBarLargeButton1Click(Sender: TObject);
 var
