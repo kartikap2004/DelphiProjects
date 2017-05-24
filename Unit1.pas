@@ -54,5 +54,5 @@ procedure TForm1.dxRibbon1HelpButtonClick(Sender: TdxCustomRibbon);
 begin
   //
 end;
-
+ // Show test message here. Or load help file.
 end.
